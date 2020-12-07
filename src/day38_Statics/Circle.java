@@ -32,4 +32,8 @@ public class Circle {
                 ", perimeter=" + df.format(perimeter) +
                 '}';
     }
+
+    public boolean equals (Circle circle){
+        return this.radius == circle.radius;
+    }
 }
