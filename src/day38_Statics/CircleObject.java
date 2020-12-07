@@ -5,6 +5,6 @@ public class CircleObject {
         Circle circle1 = new Circle ();
         circle1.setInfo(5);
 
-        System.out.println(circle);
+        System.out.println(circle1);
     }
 }
