@@ -28,8 +28,8 @@ public class Circle {
         return "Circle{" +
                 "radius=" + radius +
                 ", diameter=" + diameter +
-                ", area=" + area +
-                ", perimeter=" + perimeter +
+                ", area=" + df.format(area) +
+                ", perimeter=" + df.format(perimeter) +
                 '}';
     }
 }
