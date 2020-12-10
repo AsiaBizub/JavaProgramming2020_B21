@@ -1,4 +1,6 @@
-package day37_CustomClass;
+package day39_Constructor;
+
+import day37_CustomClass.Employee;
 
 public class HumanResources {
 
