@@ -14,7 +14,4 @@ public class HumanResources {
         employee5.setInfo("Adam Levine", "Apple Company", "Developer", "A-135", "M", 25, 75);
     }
 
-
-
-
 }
