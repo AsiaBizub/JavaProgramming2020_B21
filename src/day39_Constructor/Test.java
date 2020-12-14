@@ -1,4 +1,5 @@
 package day39_Constructor;
+/*
 //import libary.Data; // imports everything, statitc and non-static
 import static library.Data.data1;
 import static library.Data.data2;
@@ -38,3 +39,5 @@ public class Test {
 }
 
 }
+
+ */
