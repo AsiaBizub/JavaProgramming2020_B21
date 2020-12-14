@@ -1,6 +1,5 @@
 package day39_StaticBlock;
 
-
 import day37_CustomClass.Employee;
 
 import java.util.ArrayList;
