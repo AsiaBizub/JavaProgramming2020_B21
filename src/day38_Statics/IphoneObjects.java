@@ -22,9 +22,6 @@ public class IphoneObjects {
         System.out.println("============================");
         Iphone.getInfo();
 
-
-
-
     }
 
 }
