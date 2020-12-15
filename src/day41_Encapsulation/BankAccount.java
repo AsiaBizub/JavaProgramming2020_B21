@@ -10,13 +10,11 @@ public class BankAccount {
     private int accountNumber;
     private double balance;
 
-
-
     public String getAccountHolder() {
         return accountHolder;
     }
 
-    public String getBalance() {
+    public double getBalance() {
         return balance;
     }
 
