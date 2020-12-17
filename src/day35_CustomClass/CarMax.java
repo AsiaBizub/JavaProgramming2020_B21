@@ -41,9 +41,6 @@ public class CarMax {
             carList.get(i).getInfo();
         }
 
-
-
-
     }
 
 
