@@ -34,12 +34,6 @@ public class CapitalOne {
         account2.showBalance();
 
 
-
-
-
-
-
-
     }
 
 }

@@ -1,6 +1,5 @@
 package day35_CustomClass;
 
-
 import java.time.LocalDate;
 
 public class BankAccount {
