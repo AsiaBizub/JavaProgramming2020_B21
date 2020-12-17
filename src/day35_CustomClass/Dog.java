@@ -21,7 +21,7 @@ public class Dog {
         color = dogColor;
         DOB = dogDOB;
         age = LocalDate.now().getYear() - DOB.getYear();
-        //  age   = current year  - bith year
+        //  age   = current year  - birth year
     }
 
     // to print the info of the dog objects

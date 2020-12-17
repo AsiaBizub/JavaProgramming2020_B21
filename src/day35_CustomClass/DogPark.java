@@ -12,7 +12,6 @@ public class DogPark {
         Dog dog3 = new Dog();
         Dog dog4 = new Dog();
 
-
         dog1.setInfo("Tima", "York", "small", 'M',
                 "multicolor", LocalDate.of(2010,1,19));
 
@@ -51,8 +50,6 @@ public class DogPark {
 
         System.out.println("Total Number of Huskies: "+ huskies.size());
         System.out.println("Total Number of Maltese: "+ Maltese.size());
-
-
 
 
     }
