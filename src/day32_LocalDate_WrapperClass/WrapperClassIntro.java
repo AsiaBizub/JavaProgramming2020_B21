@@ -6,8 +6,6 @@ public class WrapperClassIntro {
         byte b = 100;
         Byte b2 = b; // autoboxing
 
-
-
        // Integer b3 = (int)b;
 
         int i = 10;
