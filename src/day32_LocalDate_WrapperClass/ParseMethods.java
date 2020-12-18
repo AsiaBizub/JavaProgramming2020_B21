@@ -17,9 +17,9 @@ public class ParseMethods {
 
         String s1 = "Hello";
 
-       // int num3 = Integer.parseInt(s1);
+        // int num3 = Integer.parseInt(s1);
 
-     //   System.out.println(num3);
+        //   System.out.println(num3);
 
 
         String s2 = "2.5";
@@ -43,9 +43,6 @@ public class ParseMethods {
         boolean r3 = Boolean.parseBoolean(s4);
 
         System.out.println(r3);  // not case sensitive
-
-
-
 
     }
 
