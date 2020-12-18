@@ -1,6 +1,7 @@
 package day42_Inheritance.DeviceTask;
 
 public class Device {
+
     public String deviceName, brand, model;
     public double price;
 
@@ -9,9 +10,9 @@ public class Device {
     public static boolean hasPowerButton;
 
     static{
-        madeIn = "China" ;
-        hasBattery = true;
-        hasPowerButton = true;
+       madeIn = "China" ;
+       hasBattery = true;
+       hasPowerButton = true;
     }
 
     public void setInfo(String deviceName, String brand, String model, double price) {
@@ -24,25 +25,27 @@ public class Device {
     @Override
     public String toString() {
         return "Device{" +
-                "deviceName='" + deviceName + '\'' +
-                ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
-                ", price=" + price +
+                "deviceName= '" + deviceName + '\'' +
+                ", brand= '" + brand + '\'' +
+                ", model= '" + model + '\'' +
+                ", price= $" + price +
                 '}';
     }
 
     public void turnOn(){
-        System.out.println("Turning on "+brand+" ++model");
+        System.out.println("Turning on "+brand+" "+model);
     }
 
     public void turnOff(){
-        System.out.println("Turning off "+brand+" ++model");
+        System.out.println("Turning Off "+brand+" "+model);
     }
+
 }
 
 /*
 	Device:
 		instance variables: brand, model, price
 		static: madeIn, hasBattery, hasPowerButton
+
 		methods: setInfo, toString
  */

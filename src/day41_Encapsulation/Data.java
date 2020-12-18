@@ -6,22 +6,26 @@ public class Data {
     private static String privateVariable = "B";
     static String defaultVariable = "C";  // default access modifier
 
-    //protected static String protectedVariable = "D"
+    // protected static String protectedVariable = "D";
 
-    Data (){
+    Data(){
 
     }
 
-    public static void publicMethod (){
-        System.out.println("Public method");
+
+    public static void publicMethod(){
+        System.out.println("Public Method");
     }
 
     private static void privateMethod(){
-        System.out.println("Private Method");
+        System.out.println("private Method");
     }
 
-    static void defaultMethod (){
-        System.out.println("Default Method");
-
+    static void defaultMethod(){
+        System.out.println("default Method");
     }
+
+
+
+
 }
