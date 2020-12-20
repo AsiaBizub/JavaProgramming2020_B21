@@ -5,29 +5,39 @@ import java.util.Arrays;
 public class AddElements {
 
     public static void main(String[] args) {
-        int[] arr ={10, 20, 30, 40};
+        int [] arr = {10, 20, 30, 40}; // first four indexes are already assigned
 
-        addElements(arr, 50);
+        addElements(arr, 50); // given number is assigned to the last index number of the result
 
-        int[] arr2 = {1,2,3,4,5,6};
+        int [] arr2 ={ 1, 2, 3, 4, 5, 6};
+
         addElements(arr2, 10);
 
+
     }
+                                      // {1, 2, 3},   4
+    public static void addElements ( int [] arr, int num){
 
+        int [] result = new int [arr.length+1];
 
-                                    // {1,2,3},   4
-    public static void addElements(int[] arr,   int num){
-        int[] result = new int[arr.length+1];
-
-        for(int i = 0; i <= arr.length-1; i++){
-            result[i] = arr[i];
+        for (int i = 0; i <= arr.length-1; i++){
+            result[i] += arr[i];
         }
 
-        result[result.length-1] = num;
+        result [result.length-1]= num;
 
         System.out.println(Arrays.toString(result));
 
+
+
     }
+
+
+
+
+
+
+
 
 
 }
