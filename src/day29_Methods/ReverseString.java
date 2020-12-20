@@ -4,7 +4,14 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
-        reverse("Cybertek");
+        reverse("Cybertek School");
+
+        System.out.println("============================");
+
+        String[] names = {"Sayyohat", "Livio", "Marwan", "Inna", "Halim", "Afrooz", "Maryam"};
+        for ( String each : names){
+            reverse(each);
+        }
 
     }
 
