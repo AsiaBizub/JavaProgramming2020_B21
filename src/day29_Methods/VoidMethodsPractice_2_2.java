@@ -10,7 +10,7 @@ public class VoidMethodsPractice_2_2 {
         sumOf3Nums(40, 30, 10);
 
        //sumOf3Nums(scan.nextInt(), scan.nextInt(), scan.nextInt()); application of scanner to the parameters
-
+        greaterNum(100, 101);
 
     }
 
@@ -20,6 +20,16 @@ public class VoidMethodsPractice_2_2 {
         System.out.println("Sum is: "+ (n1+n2+n3));
 
 
+    }
+
+    public static void greaterNum (int n1, int n2){
+        if(n1>n2){
+            System.out.println(n1+" is greater");
+        }else if (n2>n1){
+            System.out.println(n2+" is greater");
+        }else{
+            System.out.println("Both numbers are equal");
+        }
     }
 
 }
