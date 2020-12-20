@@ -23,8 +23,8 @@ public class MethodsWithoutParameters {
 
     }
 
-    // AccessModifier  specifier   returnTYPE   MethodName (Parameter){ }
-    public static void printHello5Times() {
+    // AccessModifier  specifier   returnTYPE        MethodName        (Parameter){ body of the method}
+          public       static         void         printHello5Times        () { // body of the method
 
         for(int i = 1; i < 6; i++){
             System.out.println("Hello");
