@@ -46,6 +46,25 @@ public class VoidMethodPractice_1_1 {
 
     }
 
+    public static void arrayUniqueElement(int [] arr){
+
+        for (int each : arr){ // each
+            int count = 0; // count represents the frequency of the variable in the array
+            for( int each2 : arr){
+                if( each == each2){ // inner loops helps you compare each element with the elements of the array
+                    count++;
+                }
+            }
+
+            if(count ==1){
+                System.out.print("Unique element: "+ each);
+            }
+
+        }
+        System.out.println();
+
+    }
+
 }
 
 
