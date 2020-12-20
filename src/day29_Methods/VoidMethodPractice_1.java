@@ -6,7 +6,7 @@ package day29_Methods;
 
 import java.util.Arrays;
 
-public class VoidMethodPractice {
+public class VoidMethodPractice_1 {
 
     public static void main(String[] args) {
 
