@@ -94,8 +94,5 @@ public class CollectionUtility {
         System.out.println("max = " + max);
         System.out.println("min = " + min);
 
-
-
-
     }
 }
