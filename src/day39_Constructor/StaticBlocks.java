@@ -6,7 +6,7 @@ public class StaticBlocks {
     public static String company;
     public static Employee employee1;
     public static int b;
-    public static boolean isEmployeed;
+    public static boolean isEmployed;
 
     public int a;
 
@@ -14,7 +14,7 @@ public class StaticBlocks {
 
     static {
         company = "Capital One";
-        isEmployeed = true;
+        isEmployed = true;
         employee1 = new Employee();
         employee1.setInfo("john", company, "SDET", "A123", "Male", 40, 55);
         //
