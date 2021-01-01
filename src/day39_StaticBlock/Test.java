@@ -1,5 +1,5 @@
 package day39_StaticBlock;
-/*
+
 //import library.Data;  // imports everything that are static or non static
 
 import static library.Data.data1;
@@ -38,4 +38,3 @@ public class Test {
     }
 
 }
-*/
